@@ -1,10 +1,10 @@
-# 🔋 Multiphysics Simulation and State Estimation of a Prismatic Li-Ion Battery Pack
+#  Multiphysics Simulation and State Estimation of a Prismatic Li-Ion Battery Pack
 
 This project focuses on the design, simulation, and analysis of a 6S1P prismatic lithium-ion battery pack. The work integrates mechanical, thermal, and electrical modeling to assess the structural integrity, thermal efficiency, and battery health metrics like SOC (State of Charge) and SOH (State of Health). The ultimate goal is to create a validated digital twin that supports safer and more efficient battery system designs.
 
 ---
 
-## 📌 Project Objectives
+##  Project Objectives
 
 - Design and simulate a prismatic Li-ion battery pack and custom PLA holder.
 - Validate mechanical performance using static, modal, and drop test simulations.
@@ -15,7 +15,7 @@ This project focuses on the design, simulation, and analysis of a 6S1P prismatic
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 
 - **SolidWorks** – 3D modeling, structural and modal simulations
 - **ANSYS Fluent** – CFD-based thermal simulations
@@ -23,20 +23,20 @@ This project focuses on the design, simulation, and analysis of a 6S1P prismatic
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
-### 🔩 Mechanical Analysis
+###  Mechanical Analysis
 - Designed the 6S1P battery pack and holder in SolidWorks.
 - Performed static load simulations with 1500N to test structural durability.
 - Conducted modal analysis to extract natural frequencies (first mode at ~93.5 Hz).
 - Simulated drop impact from 1 meter to evaluate structural robustness.
 
-### 🌡️ Thermal Simulation
+###  Thermal Simulation
 - Used SolidWorks for transient heat flow with natural convection.
 - Developed a detailed Fluent model with airflow domains and boundary conditions.
 - Applied realistic heat generation profiles and monitored peak temperatures.
 
-### 🔌 Electrical Estimation
+###  Electrical Estimation
 - Implemented three SOC estimation algorithms:
   - Coulomb Counting
   - Kalman Filter
@@ -46,7 +46,7 @@ This project focuses on the design, simulation, and analysis of a 6S1P prismatic
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
 - **Mechanical Integrity**: Structure remained elastic under load with a minimum FOS > 3.
 - **Thermal Analysis**: Peak temperature ~330 K; airflow optimization recommended for hotspots near terminals.
@@ -54,7 +54,7 @@ This project focuses on the design, simulation, and analysis of a 6S1P prismatic
 
 ---
 
-## 🔍 Future Work
+##  Future Work
 
 - Explore machine learning models for nonlinear SOC/SOH prediction.
 - Test alternative battery chemistries and high-current cooling strategies.
